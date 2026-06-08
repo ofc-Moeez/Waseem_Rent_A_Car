@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Waseem Car Rental - Affordable, reliable, and premium car rental services in Karachi, Pakistan. Business trips, family tours, airport transfers, and daily transportation.">
+  <meta name="keywords" content="car rental, Karachi, Pakistan, Waseem Car Rental, SUV rental, sedan rental, airport transfer">
+  <meta name="author" content="Waseem Car Rental">
+  <title>Waseem Car Rental | Your Trusted Travel Partner</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Back to Top -->
+  <button id="backToTop" class="back-to-top" aria-label="Back to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <!-- WhatsApp Float -->
+  <a href="https://wa.me/923052487038?text=Hello%20Waseem%20Car%20Rental%2C%20I%20would%20like%20to%20inquire%20about%20a%20vehicle." 
+     class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+    <span class="whatsapp-pulse"></span>
+  </a>
+
+  <!-- Navbar -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar__inner">
+      <a href="#home" class="navbar__logo">
+        <i class="fas fa-car-side"></i>
+        <span>Waseem <strong>Car Rental</strong></span>
+      </a>
+      <nav class="navbar__nav" id="navMenu">
+        <ul class="navbar__list">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#fleet" class="nav-link">Fleet</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <a href="#contact" class="btn btn--gold navbar__cta">Book Now</a>
+      </nav>
+      <button class="navbar__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div class="navbar__overlay" id="navOverlay"></div>
+  </header>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="hero__bg">
+        <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=1920&q=80" alt="Modern city skyline at night" loading="eager">
+      </div>
+      <div class="hero__overlay"></div>
+      <div class="hero__cars">
+        <img src="alto.png" alt="Luxury black sedan" class="hero__car hero__car--sedan" loading="eager">
+        <img src="mira.png" alt="White SUV" class="hero__car hero__car--suv" loading="eager">
+      </div>
+      <div class="container hero__content">
+        <p class="hero__tagline fade-up">Premium Car Rental Services</p>
+        <h1 class="hero__title fade-up">Waseem Car Rental</h1>
+        <p class="hero__subtitle fade-up">Your Trusted Travel Partner</p>
+        <p class="hero__desc fade-up">Affordable, reliable, and premium car rental services for business trips, family tours, airport transfers, and daily transportation needs.</p>
+        <div class="hero__buttons fade-up">
+          <a href="#contact" class="btn btn--gold">Book Now</a>
+          <a href="#fleet" class="btn btn--outline">View Fleet</a>
+        </div>
+      </div>
+      <a href="#why-us" class="hero__scroll" aria-label="Scroll down">
+        <span>Scroll Down</span>
+        <i class="fas fa-chevron-down"></i>
+      </a>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="section why-us" id="why-us">
+      <div class="container">
+        <div class="section__header fade-up">
+          <span class="section__tag">Why Choose Us</span>
+          <h2 class="section__title">Experience the Difference</h2>
+          <p class="section__desc">We deliver excellence in every journey with our commitment to quality, affordability, and customer satisfaction.</p>
+        </div>
+        <div class="why-us__grid">
+          <article class="feature-card fade-up">
+            <div class="feature-card__icon"><i class="fas fa-shield-halved"></i></div>
+            <h3>Reliable Service</h3>
+            <p>Professional and punctual service you can count on for every trip.</p>
+          </article>
+          <article class="feature-card fade-up">
+            <div class="feature-card__icon"><i class="fas fa-tags"></i></div>
+            <h3>Affordable Pricing</h3>
+            <p>Competitive rental rates with no hidden charges or surprises.</p>
+          </article>
+          <article class="feature-card fade-up">
+            <div class="feature-card__icon"><i class="fas fa-car"></i></div>
+            <h3>Well Maintained Vehicles</h3>
+            <p>Clean and regularly serviced fleet for your safety and comfort.</p>
+          </article>
+          <article class="feature-card fade-up">
+            <div class="feature-card__icon"><i class="fas fa-headset"></i></div>
+            <h3>24/7 Support</h3>
+            <p>Customer assistance anytime, day or night, whenever you need us.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Fleet -->
+    <section class="section fleet" id="fleet">
+      <div class="container">
+        <div class="section__header fade-up">
+          <span class="section__tag">Our Fleet</span>
+          <h2 class="section__title">Premium Vehicles</h2>
+          <p class="section__desc">Choose from our wide range of well-maintained vehicles for every occasion and budget.</p>
+        </div>
+        <div class="fleet__grid">
+
+          <article class="fleet-card fade-up">
+            <div class="fleet-card__image">
+              <img src="alto.png" alt="Toyota Corolla" loading="lazy">
+              <span class="fleet-card__badge">Popular</span>
+            </div>
+            <div class="fleet-card__body">
+              <h3>Suzuki Alto</h3>
+              <span class="fleet-card__category">Daily Rental</span>
+              <ul class="fleet-card__specs">
+                <li><i class="fas fa-cog"></i> Automatic / Manual</li>
+                <li><i class="fas fa-users"></i> 5 Seats</li>
+                <li><i class="fas fa-gas-pump"></i> Petrol</li>
+              </ul>
+              <div class="fleet-card__footer">
+                <div class="fleet-card__price">Contact Us<span>For Price</span></div>
+                <a href="#contact" class="btn btn--gold btn--sm">Rent Now</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="fleet-card fade-up">
+            <div class="fleet-card__image">
+              <img src="mira.png" alt="Honda Civic" loading="lazy">
+            </div>
+            <div class="fleet-card__body">
+              <h3>Mira</h3>
+              <span class="fleet-card__category">Daily Rental</span>
+              <ul class="fleet-card__specs">
+                <li><i class="fas fa-cog"></i> Automatic</li>
+                <li><i class="fas fa-users"></i> 5 Seats</li>
+                <li><i class="fas fa-gas-pump"></i> Petrol</li>
+              </ul>
+              <div class="fleet-card__footer">
+                <div class="fleet-card__price">Contact Us<span>For Price</span></div>
+                <a href="#contact" class="btn btn--gold btn--sm">Rent Now</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="fleet-card fade-up">
+            <div class="fleet-card__image">
+              <img src="carolla.png" alt="Toyota Fortuner" loading="lazy">
+            </div>
+            <div class="fleet-card__body">
+              <h3>Toyota Corolla</h3>
+              <span class="fleet-card__category">Sedan Type Daily Rental</span>
+              <ul class="fleet-card__specs">
+                <li><i class="fas fa-cog"></i>Automatic</li>
+                <li><i class="fas fa-users"></i> 5 Seats</li>
+                <li><i class="fas fa-gas-pump"></i> Petrol</li>
+              </ul>
+              <div class="fleet-card__footer">
+                <div class="fleet-card__price">Contact Us<span>For Price</span></div>
+                <a href="#contact" class="btn btn--gold btn--sm">Rent Now</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="fleet-card fade-up">
+            <div class="fleet-card__image">
+              <img src="civic.png" alt="Kia Sportage" loading="lazy">
+            </div>
+            <div class="fleet-card__body">
+              <h3>Honda Civic</h3>
+              <span class="fleet-card__category">Sedan Type Daily Rental</span>
+              <ul class="fleet-card__specs">
+                <li><i class="fas fa-cog"></i> Automatic</li>
+                <li><i class="fas fa-users"></i> 5 Seats</li>
+                <li><i class="fas fa-gas-pump"></i> Petrol</li>
+              </ul>
+              <div class="fleet-card__footer">
+                <div class="fleet-card__price">Contact Us<span>For Price</span></div>
+                <a href="#contact" class="btn btn--gold btn--sm">Rent Now</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="fleet-card fade-up">
+            <div class="fleet-card__image">
+              <img src="revo.png" alt="Hyundai Tucson" loading="lazy">
+            </div>
+            <div class="fleet-card__body">
+              <h3>Toyota Revo</h3>
+              <span class="fleet-card__category">Pickup Type Daily Rental</span>
+              <ul class="fleet-card__specs">
+                <li><i class="fas fa-cog"></i> Automatic</li>
+                <li><i class="fas fa-users"></i> 5 Seats</li>
+                <li><i class="fas fa-gas-pump"></i> Diesel</li>
+              </ul>
+              <div class="fleet-card__footer">
+                <div class="fleet-card__price">Contact Us<span>For Price</span></div>
+                <a href="#contact" class="btn btn--gold btn--sm">Rent Now</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="fleet-card fade-up">
+            <div class="fleet-card__image">
+              <img src="fortuner.png" alt="Toyota Prado" loading="lazy">
+              <span class="fleet-card__badge fleet-card__badge--gold">Executive</span>
+            </div>
+            <div class="fleet-card__body">
+              <h3>Toyota Fortuner</h3>
+              <span class="fleet-card__category">Executive SUV</span>
+              <ul class="fleet-card__specs">
+                <li><i class="fas fa-cog"></i> Automatic</li>
+                <li><i class="fas fa-users"></i> 7 Seats</li>
+                <li><i class="fas fa-gas-pump"></i> Diesel</li>
+              </ul>
+              <div class="fleet-card__footer">
+                <div class="fleet-card__price">Contact Us<span>For Price</span></div>
+                <a href="#contact" class="btn btn--gold btn--sm">Rent Now</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section services" id="services">
+      <div class="container">
+        <div class="section__header fade-up">
+          <span class="section__tag">Our Services</span>
+          <h2 class="section__title">Rental Solutions</h2>
+          <p class="section__desc">Flexible rental packages tailored to your travel needs, from daily commutes to long-term corporate contracts.</p>
+        </div>
+        <div class="services__grid">
+          <article class="service-card fade-up">
+            <div class="service-card__icon"><i class="fas fa-calendar-day"></i></div>
+            <h3>Daily Rental</h3>
+            <p>Perfect for short trips, errands, and day-to-day transportation needs.</p>
+          </article>
+          <article class="service-card fade-up">
+            <div class="service-card__icon"><i class="fas fa-calendar-week"></i></div>
+            <h3>Weekly Rental</h3>
+            <p>Extended stays and business trips with discounted weekly rates.</p>
+          </article>
+          <article class="service-card fade-up">
+            <div class="service-card__icon"><i class="fas fa-calendar-alt"></i></div>
+            <h3>Monthly Rental</h3>
+            <p>Long-term rentals with the best value for corporate and personal use.</p>
+          </article>
+          <article class="service-card fade-up">
+            <div class="service-card__icon"><i class="fas fa-plane-arrival"></i></div>
+            <h3>Airport Transfer</h3>
+            <p>Reliable pickup and drop-off services to and from the airport.</p>
+          </article>
+          <article class="service-card fade-up">
+            <div class="service-card__icon"><i class="fas fa-briefcase"></i></div>
+            <h3>Corporate Travel</h3>
+            <p>Professional transportation solutions for business executives.</p>
+          </article>
+          <article class="service-card fade-up">
+            <div class="service-card__icon"><i class="fas fa-people-roof"></i></div>
+            <h3>Family Trips</h3>
+            <p>Spacious vehicles for comfortable family vacations and outings.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Booking Process -->
+    <section class="section booking-process" id="booking">
+      <div class="container">
+        <div class="section__header fade-up">
+          <span class="section__tag">How It Works</span>
+          <h2 class="section__title">Simple Booking Process</h2>
+          <p class="section__desc">Rent your dream car in four easy steps. Fast, simple, and hassle-free.</p>
+        </div>
+        <div class="timeline fade-up">
+          <div class="timeline__line"></div>
+          <div class="timeline__step">
+            <div class="timeline__circle">1</div>
+            <div class="timeline__content">
+              <h3>Choose Your Car</h3>
+              <p>Browse our premium fleet and select the perfect vehicle for your needs.</p>
+            </div>
+          </div>
+          <div class="timeline__step">
+            <div class="timeline__circle">2</div>
+            <div class="timeline__content">
+              <h3>Contact Us</h3>
+              <p>Reach out via phone, WhatsApp, or our contact form to discuss details.</p>
+            </div>
+          </div>
+          <div class="timeline__step">
+            <div class="timeline__circle">3</div>
+            <div class="timeline__content">
+              <h3>Confirm Booking</h3>
+              <p>Complete documentation and confirm your reservation with our team.</p>
+            </div>
+          </div>
+          <div class="timeline__step">
+            <div class="timeline__circle">4</div>
+            <div class="timeline__content">
+              <h3>Enjoy Your Ride</h3>
+              <p>Pick up your vehicle and enjoy a smooth, comfortable journey.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section about" id="about">
+      <div class="container about__inner">
+        <div class="about__content fade-up">
+          <span class="section__tag">About Us</span>
+          <h2 class="section__title">Driven by Excellence</h2>
+          <p>Waseem Car Rental provides reliable and affordable transportation solutions. We focus on customer satisfaction, safety, and comfort, offering a wide range of vehicles for every travel need.</p>
+          <p>With years of experience serving clients across Karachi and beyond, we have built a reputation for trust, transparency, and exceptional service quality.</p>
+          <a href="#contact" class="btn btn--gold">Get In Touch</a>
+        </div>
+        <div class="about__counters fade-up">
+          <div class="about-counter">
+            <span class="about-counter__num" data-target="10">0</span>
+            <span class="about-counter__suffix">+</span>
+            <p>Years Experience</p>
+          </div>
+          <div class="about-counter">
+            <span class="about-counter__num" data-target="500">0</span>
+            <span class="about-counter__suffix">+</span>
+            <p>Happy Customers</p>
+          </div>
+          <div class="about-counter">
+            <span class="about-counter__num" data-target="50">0</span>
+            <span class="about-counter__suffix">+</span>
+            <p>Cars Available</p>
+          </div>
+          <div class="about-counter">
+            <span class="about-counter__num" data-target="1000">0</span>
+            <span class="about-counter__suffix">+</span>
+            <p>Successful Trips</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section testimonials" id="testimonials">
+      <div class="container">
+        <div class="section__header fade-up">
+          <span class="section__tag">Testimonials</span>
+          <h2 class="section__title">What Our Clients Say</h2>
+          <p class="section__desc">Real reviews from satisfied customers who trust us for their travel needs.</p>
+        </div>
+        <div class="testimonial-slider fade-up">
+          <div class="testimonial-slider__track" id="testimonialTrack">
+            <article class="testimonial-card">
+              <div class="testimonial-card__avatar">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&q=80" alt="Ahmed Khan" loading="lazy">
+              </div>
+              <div class="testimonial-card__stars">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              </div>
+              <p class="testimonial-card__text">"Excellent service! The Toyota Fortuner was in perfect condition. Waseem Car Rental made our family trip to Murree unforgettable. Highly recommended!"</p>
+              <h4 class="testimonial-card__name">Ahmed Khan</h4>
+              <span class="testimonial-card__role">Business Owner</span>
+            </article>
+            <article class="testimonial-card">
+              <div class="testimonial-card__avatar">
+                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&q=80" alt="Fatima Ali" loading="lazy">
+              </div>
+              <div class="testimonial-card__stars">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              </div>
+              <p class="testimonial-card__text">"I've been using their monthly rental service for my business commute. Professional, punctual, and always well-maintained vehicles. Best car rental in Karachi!"</p>
+              <h4 class="testimonial-card__name">Fatima Ali</h4>
+              <span class="testimonial-card__role">Marketing Manager</span>
+            </article>
+            <article class="testimonial-card">
+              <div class="testimonial-card__avatar">
+                <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&q=80" alt="Usman Malik" loading="lazy">
+              </div>
+              <div class="testimonial-card__stars">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+              </div>
+              <p class="testimonial-card__text">"Airport transfer was seamless. Driver was on time, car was clean and comfortable. Will definitely book again for my next business trip."</p>
+              <h4 class="testimonial-card__name">Usman Malik</h4>
+              <span class="testimonial-card__role">Software Engineer</span>
+            </article>
+            <article class="testimonial-card">
+              <div class="testimonial-card__avatar">
+                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&q=80" alt="Sara Ahmed" loading="lazy">
+              </div>
+              <div class="testimonial-card__stars">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              </div>
+              <p class="testimonial-card__text">"Affordable rates and transparent pricing. No hidden fees. The Honda Civic was perfect for our wedding anniversary trip. Thank you Waseem Car Rental!"</p>
+              <h4 class="testimonial-card__name">Sara Ahmed</h4>
+              <span class="testimonial-card__role">Teacher</span>
+            </article>
+          </div>
+          <div class="testimonial-slider__dots" id="testimonialDots"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Statistics -->
+    <section class="section stats" id="stats">
+      <div class="container">
+        <div class="stats__grid">
+          <div class="stat-item fade-up">
+            <span class="stat-item__num" data-target="500" data-suffix="+">0</span>
+            <p>Happy Customers</p>
+          </div>
+          <div class="stat-item fade-up">
+            <span class="stat-item__num" data-target="50" data-suffix="+">0</span>
+            <p>Available Cars</p>
+          </div>
+          <div class="stat-item fade-up">
+            <span class="stat-item__num" data-target="1000" data-suffix="+">0</span>
+            <p>Successful Trips</p>
+          </div>
+          <div class="stat-item fade-up">
+            <span class="stat-item__num stat-item__num--text" data-target="24" data-suffix="/7">0</span>
+            <p>Support</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="section gallery" id="gallery">
+      <div class="container">
+        <div class="section__header fade-up">
+          <span class="section__tag">Gallery</span>
+          <h2 class="section__title">Luxury Vehicle Showcase</h2>
+          <p class="section__desc">Explore our collection of premium sedans, SUVs, and luxury vehicles.</p>
+        </div>
+        <div class="gallery__grid fade-up">
+          <figure class="gallery__item" data-category="Sedans">
+            <img src="alto.png" alt="Luxury Sedan" loading="lazy">
+            <figcaption>
+              <span>Hatchback</span>
+              <i class="fas fa-expand"></i>
+            </figcaption>
+          </figure>
+          <figure class="gallery__item" data-category="SUVs">
+            <img src="mira.png" alt="Premium SUV" loading="lazy">
+            <figcaption>
+              <span>Hatchback</span>
+              <i class="fas fa-expand"></i>
+            </figcaption>
+          </figure>
+          <figure class="gallery__item" data-category="Luxury Cars">
+            <img src="carolla.png" alt="Luxury Car" loading="lazy">
+            <figcaption>
+              <span>Sedan</span>
+              <i class="fas fa-expand"></i>
+            </figcaption>
+          </figure>
+          <figure class="gallery__item" data-category="Family Cars">
+            <img src="civic.png" alt="Family Car" loading="lazy">
+            <figcaption>
+              <span>Sedan</span>
+              <i class="fas fa-expand"></i>
+            </figcaption>
+          </figure>
+          <figure class="gallery__item" data-category="Sedans">
+            <img src="revo.png" alt="Premium Sedan" loading="lazy">
+            <figcaption>
+              <span>Pickup</span>
+              <i class="fas fa-expand"></i>
+            </figcaption>
+          </figure>
+          <figure class="gallery__item" data-category="SUVs">
+            <img src="fortuner.png" alt="Executive SUV" loading="lazy">
+            <figcaption>
+              <span>SUVs</span>
+              <i class="fas fa-expand"></i>
+            </figcaption>
+          </figure>
+          <figure class="gallery__item" data-category="Luxury Cars">
+            <img src="lexus.png" alt="Luxury Vehicle" loading="lazy">
+            <figcaption>
+              <span>Luxury SUVs</span>
+              <i class="fas fa-expand"></i>
+            </figcaption>
+          </figure>
+          <figure class="gallery__item" data-category="Family Cars">
+            <img src="cultus (1).png" alt="Family SUV" loading="lazy">
+            <figcaption>
+              <span>Family Cars 
+                Hatchback
+              </span>
+              <i class="fas fa-expand"></i>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+      <button class="lightbox__close" id="lightboxClose" aria-label="Close lightbox"><i class="fas fa-times"></i></button>
+      <button class="lightbox__prev" id="lightboxPrev" aria-label="Previous image"><i class="fas fa-chevron-left"></i></button>
+      <div class="lightbox__content">
+        <img src="" alt="" id="lightboxImg">
+        <p id="lightboxCaption"></p>
+      </div>
+      <button class="lightbox__next" id="lightboxNext" aria-label="Next image"><i class="fas fa-chevron-right"></i></button>
+    </div>
+
+    <!-- FAQ -->
+    <section class="section faq" id="faq">
+      <div class="container">
+        <div class="section__header fade-up">
+          <span class="section__tag">FAQ</span>
+          <h2 class="section__title">Frequently Asked Questions</h2>
+          <p class="section__desc">Find answers to common questions about our rental services and policies.</p>
+        </div>
+        <div class="faq__list fade-up">
+          <div class="faq__item">
+            <button class="faq__question" aria-expanded="false">
+              <span>How do I book a vehicle?</span>
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="faq__answer">
+              <p>You can book a vehicle by calling us, sending a WhatsApp message, or filling out the contact form on this page. Our team will confirm availability and guide you through the booking process.</p>
+            </div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__question" aria-expanded="false">
+              <span>What documents are required?</span>
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="faq__answer">
+              <p>You will need a valid CNIC or passport, a valid driving license, and a security deposit. For corporate rentals, additional company documentation may be required.</p>
+            </div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__question" aria-expanded="false">
+              <span>Do you provide airport pickup?</span>
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="faq__answer">
+              <p>Yes, we offer reliable airport pickup and drop-off services at Jinnah International Airport, Karachi. Book in advance to ensure a smooth arrival experience.</p>
+            </div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__question" aria-expanded="false">
+              <span>Can I rent monthly?</span>
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="faq__answer">
+              <p>Absolutely! We offer flexible monthly rental packages with discounted rates for long-term customers. Contact us for a customized monthly quote.</p>
+            </div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__question" aria-expanded="false">
+              <span>Is driver service available?</span>
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="faq__answer">
+              <p>Yes, we provide professional chauffeur services upon request. Our experienced drivers ensure a safe and comfortable journey for business and personal travel.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="section__header fade-up">
+          <span class="section__tag">Contact Us</span>
+          <h2 class="section__title">Get In Touch</h2>
+          <p class="section__desc">Ready to book? Send us an inquiry and we'll get back to you within 24 hours.</p>
+        </div>
+        <div class="contact__grid">
+          <form class="contact__form fade-up" id="contactForm" novalidate>
+            <div class="form-group">
+              <label for="fullName">Full Name <span>*</span></label>
+              <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required>
+              <span class="form-error" id="fullNameError"></span>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number <span>*</span></label>
+              <input type="tel" id="phone" name="phone" placeholder="03XX XXXXXXX" required>
+              <span class="form-error" id="phoneError"></span>
+            </div>
+            <div class="form-group">
+              <label for="email">Email <span>*</span></label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" required>
+              <span class="form-error" id="emailError"></span>
+            </div>
+            <div class="form-group">
+              <label for="vehicle">Vehicle Selection</label>
+              <select id="vehicle" name="vehicle">
+                <option value="">Select a vehicle</option>
+                <option value="Toyota Corolla">Toyota Corolla</option>
+                <option value="Honda Civic">Honda Civic</option>
+                <option value="Toyota Fortuner">Toyota Fortuner</option>
+                <option value="Kia Sportage">Kia Sportage</option>
+                <option value="Hyundai Tucson">Hyundai Tucson</option>
+                <option value="Toyota Prado">Toyota Prado</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message <span>*</span></label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell us about your rental needs..." required></textarea>
+              <span class="form-error" id="messageError"></span>
+            </div>
+            <button type="submit" class="btn btn--gold btn--full">Send Inquiry</button>
+            <div class="form-success" id="formSuccess">
+              <i class="fas fa-check-circle"></i>
+              <p>Thank you! Your inquiry has been sent successfully. We'll contact you soon.</p>
+            </div>
+          </form>
+          <div class="contact__info fade-up">
+            <div class="contact-info-card">
+              <div class="contact-info-card__icon"><i class="fas fa-location-dot"></i></div>
+              <div>
+                <h4>Location</h4>
+                <p>Karachi, Pakistan</p>
+              </div>
+            </div>
+            <div class="contact-info-card">
+              <div class="contact-info-card__icon"><i class="fas fa-phone"></i></div>
+              <div>
+                <h4>Phone</h4>
+                <p><a href="tel:+923052487038">+92 305 2487038</a></p>
+              </div>
+            </div>
+            <div class="contact-info-card">
+              <div class="contact-info-card__icon"><i class="fas fa-envelope"></i></div>
+              <div>
+                <h4>Email</h4>
+                <p><a href="mailto:moeeziqbal797@gmail.com">moeeziqbal797@gmail.com</a></p>
+              </div>
+            </div>
+            <div class="contact-info-card">
+              <div class="contact-info-card__icon"><i class="fas fa-clock"></i></div>
+              <div>
+                <h4>Availability</h4>
+                <p>Available 24/7</p>
+              </div>
+            </div>
+            <div class="contact__map">
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d462560.997781883!2d66.903703!3d24.860734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e06639ed799%3A0x3e081ea1ed1c58b1!2sKarachi%2C%20Pakistan!5e0!3m2!1sen!2s!4v1700000000000!5m2!1sen!2s" 
+                width="100%" 
+                height="250" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Waseem Car Rental Location - Karachi, Pakistan">
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="#home" class="footer__logo">
+            <i class="fas fa-car-side"></i>
+            <span>Waseem <strong>Car Rental</strong></span>
+          </a>
+          <p>Your trusted partner for premium car rental services in Karachi. Reliable, affordable, and always ready to serve.</p>
+          <div class="footer__social">
+            <a href="https://www.instagram.com/waseem_rent_a_car?igsh=bWdrOHZrMjh5aTBt" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/923052487038" aria-label="WhatsApp" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+        <div class="footer__links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#fleet">Fleet</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer__links">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">Daily Rental</a></li>
+            <li><a href="#services">Weekly Rental</a></li>
+            <li><a href="#services">Monthly Rental</a></li>
+            <li><a href="#services">Airport Transfer</a></li>
+            <li><a href="#services">Corporate Travel</a></li>
+          </ul>
+        </div>
+        <div class="footer__links">
+          <h4>Contact</h4>
+          <ul class="footer__contact-list">
+            <li><i class="fas fa-location-dot"></i> Karachi, Pakistan</li>
+            <li><i class="fas fa-phone"></i> +92 305 2487038</li>
+            <li><i class="fas fa-envelope"></i> moeeziqbal797@gmail.com</li>
+            <li><i class="fas fa-clock"></i> Available 24/7</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 Waseem Car Rental. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
